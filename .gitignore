@@ -1,0 +1,37 @@
+# Dokumen PRD dan konteks lokal
+docs/PRD.docx
+docs/PROJECT_STATUS.md
+docs/PROJECT_FORMAT.md
+docs/AGENTS.md
+docs/DEVELOPMENT_WORKFLOW.md
+docs/DECISIONS.md
+docs/CHANGELOG.md
+
+# Python cache dan environment lokal
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Data survei dan hasil lokal
+data/raw/
+data/imported/
+data/processed/
+data/grids/
+exports/
+reports/
+
+# File aplikasi/IDE lokal
+.idea/
+.vscode/
+*.user
+*.suo
+
+# File sementara
+*.tmp
+*.log
+Thumbs.db
+
